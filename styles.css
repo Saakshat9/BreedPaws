@@ -40,7 +40,7 @@ label {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #FFC00FF;
+  background-color: #C58080;
   border: none;
   color: #fff;
   font-weight: bold;
@@ -68,4 +68,30 @@ button:hover {
 
 :-ms-input-placeholder {
   color: #ccc;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 500px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  select {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
 }
